@@ -1,0 +1,176 @@
+/* buttons on search page and nav bar */
+#button{
+    border-radius: 25px 25px 25px 25px;
+    height: 40px;
+    /* margin-right: 81px; */
+}
+
+
+
+.btn-sign-in {
+    background-color: #FFA700 !important;
+    color: black;
+    font-family: Poppins !important;
+    width:108px !important;
+    height:40px !important; 
+    margin-left: 7rem !important ;
+}
+
+.btn-Sign-in {
+    background-color: #FFA700 !important;
+    color: black;
+    font-family: Poppins !important;
+    width:108px !important;
+    height:40px !important; 
+}
+
+
+/* buttons on authentication page */
+.btn-artist{
+    background-color: rgba(196, 196, 196, 0.3) !important;
+    color: black;
+    font-family: Poppins !important;
+    font-size: 14px;
+    font-weight: 400;
+    width:148px !important;
+    height:72px !important;
+    margin: -1px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    
+    border-top-left-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+    border: 1px solid rgba(255, 167, 0, 0.3);
+}
+
+
+
+.btn-artist:hover,
+.btn-artist:active{
+    background-color: #FFA700 !important;
+    color: #C4C4C4;
+}
+
+.btn-listener{
+    background-color: rgba(196, 196, 196, 0.3) !important;
+    color: black;
+    font-family: Poppins !important;
+    font-size: 14px;
+    font-weight: 400;
+    width:148px !important;
+    height:72px !important;
+    margin: -1px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+
+    border-top-right-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+    border: 1px solid rgba(255, 167, 0, 0.3);
+}
+
+.btn-listener:hover,
+.btn-listener:active{
+    background-color: #FFA700 !important;
+    color: #C4C4C4;
+}
+
+/* button on authentication page */
+
+.btn-Login{
+    width: 291px !important;
+    height: 52px !important;
+    background-color: #FFA700 !important;
+    color: white !important;
+    text-align: center !important;
+    font-family: Poppins !important;
+    font-size: 14px !important;
+    border-radius: 10px !important;
+}
+
+.btn-Signup{
+    width: 291px !important;
+    max-width: 100% !important;
+    height: 52px !important;
+    background-color: #FFA700 !important;
+    color: white !important;
+    text-align: center !important;
+    font-size: 14px !important;
+    border-radius: 10px !important;
+    margin: 0px 0px 0px 140px !important ;
+}
+
+@media screen and (max-width: 500px){
+   .btn-Signup{
+    margin-left: 0px !important ;
+   } 
+   .btn-Login{
+       width: auto !important;
+      
+   }
+}
+
+
+
+/* button for landing page */
+
+.btn-Continue{
+    background-color: #FFA700 !important;
+    color: black;
+    font-family: Poppins !important;
+    font-size: 15px !important;
+    font-style: medium !important;
+    font-weight: 500 !important;
+    width:108px !important;
+    height:45px !important; 
+}
+
+/* upload page button */
+.btn-back{
+    height: 56px;
+    width: 136px;
+    border: 1px solid #FFA700;
+    border-radius: 30px;
+    background-color: black;
+    color: #FFA700;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin: auto;
+    text-align: center;
+}
+
+
+/* NOw playing page */
+
+.btn-signin-player {
+    background-color: #FFA700 !important;
+    color: black;
+    width:108px !important;
+    height:40px !important;
+    margin-top: 40px !important;
+}
+
+.btn-next{
+    height: 56px;
+    width: 136px;
+    border: 1px solid #FFA700;
+    border-radius: 30px;
+    background-color: black;
+    color: #FFA700;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
+.btn-back:hover,
+.btn-back:focus,
+.btn-next:hover,
+.btn-next:focus{
+    background-color:  #FFA700;
+    color: black;
+}
+
+

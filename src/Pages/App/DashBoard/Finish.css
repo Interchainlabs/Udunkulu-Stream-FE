@@ -1,0 +1,12 @@
+.upload-success{
+    height: 302px;
+    width: 458px;
+    border-radius: 50px;
+    margin: 0px auto auto auto;
+    background: #0C0C0E;
+    align-items: center;
+}
+
+#uploadImage{
+    margin-top: 76px;
+}

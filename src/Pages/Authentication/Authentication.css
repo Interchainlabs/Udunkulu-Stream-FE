@@ -1,0 +1,235 @@
+#modalContent{
+    margin: 8.5rem auto auto auto;
+    width: 363px;
+    background-color: white;
+    border-radius:15px !important ;
+}
+
+#modalBodyMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 55px;
+}
+
+#modalText{
+    color: black !important;
+    font-family: poppins;
+    font-size: 14px !important;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.formPasswordError{
+    color: red;
+    font-size: 0.6rem;
+}
+.loginFormError{
+    color: red;
+    font-size: 0.6rem;
+    margin: 0px 0px 10px 0px;;
+}
+
+.signUpFormError{
+    color: red;
+    font-size: 0.6rem;
+    margin: 0px 0px 5px 0px;
+    text-align: center;
+}
+#modalButton{
+    height: 72px;
+    margin: 31px 0px 0px 0px;
+    
+}
+
+/* User Login */
+#userModalContent{
+   margin: 50px 0px 0px 0px;
+    width: 363px;
+    
+    background-color: white;
+    border-radius:15px !important ;
+}
+
+#close-button{
+    background-color: #FFA700;
+    height: 24px;
+    width: 24px;
+    align-self: flex-end;
+    margin-right: 33px;
+    margin-top: 34px;
+    border-radius: 100px;
+} 
+
+#close{
+    width: 0.5px;
+    padding: 0px;
+    margin-right: 20px;
+    margin-top: -4px;
+    color: white;
+   opacity: 1;
+   background: none;
+   border: none;
+}
+
+#close span{
+    padding-right: 0%;
+}
+
+#userModalBodyMain{
+    text-align: center;
+    margin-top: 13px;
+}
+
+
+
+#modalLogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#userModalText{
+    color: black !important;
+    font-family: poppins;
+    font-size: 14px !important;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+
+#form{
+    margin: 38px 18px 12px 18px;
+    height: 180px;
+    width: 291px;
+}
+
+.form-control-login{
+    height: 52px;
+    background-color: #F1F0F0 !important;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 21px;
+    text-align: left;
+    border-radius: 10px !important;
+}
+
+#forgotPassword{
+    margin: 38px 0px 15px 0px;
+}
+ 
+#forgotPassword text{
+    color: black;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+#sign-text{
+    color: #FFA700 ;
+}
+
+
+
+
+/* User Sign up */
+
+#SignUpModalContent{
+    width: 600px;
+    border-radius: 15px;
+    
+}
+ #mainModal{
+width: 600px;
+margin: 13px 17px 15px 0px;
+padding: 0px;
+ }
+
+#signUpModalBody{
+    text-align: center;
+   
+}
+
+
+#signup-form{
+    margin-top: 40px;
+}
+
+
+#signup-close-button{
+    background-color: #FFA700;
+    height: 24px;
+    width: 24px;
+    border-radius: 100px;
+    margin-top: 42px; 
+    margin-right: 33px;
+    align-self: flex-end;
+}
+
+
+.form-control-signup{
+    height: 52px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+    background-color: #F1F0F0 !important;
+    border-radius: 10px !important;
+}  
+
+#haveAccount{
+    text-align: center;
+}
+
+#haveAccount text{
+    color: black;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    cursor: pointer;
+}
+
+/* media query */
+@media screen and (max-width: 600px){
+    #modalContent{
+      
+        width: auto;
+        
+    }
+    #signup-form{
+        margin-top: 0px;
+    }
+    #SignUpModalContent{
+        width: auto;  
+    }
+     #mainModal{
+    width: auto;
+    margin: 13px 0px 0px 0px;
+    padding: 0px;
+     }
+
+     #userModalContent{
+        width: auto;
+    }
+
+    #form{
+        width: auto;
+    }
+ }
+
+
+
+
+

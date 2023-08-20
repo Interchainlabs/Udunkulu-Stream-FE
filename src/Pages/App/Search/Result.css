@@ -1,0 +1,33 @@
+.nav-bar-mobile {
+    margin-left: 0;
+ padding-left: 0;
+}
+.navbar-nav-mobile{
+    flex-direction: unset;
+} 
+/* .lowerContainer {
+    padding-top: 0em;
+} */
+/* #spacer{
+    height: 0px;
+} */
+.nav-bar-mobile a {
+    color: #ffffff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    display: block;
+    line-height: 1em; /* a */
+    max-height: 2em; /* a x number of line to show (ex : 2 line)  */
+
+}
+.nav-bar-mobile a:active {
+    font-weight: 600;
+
+}
+#myTab .active{
+    font-weight: 500;
+}
+.top-align{
+    margin-top: -12em;
+}

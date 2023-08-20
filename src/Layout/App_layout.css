@@ -1,0 +1,217 @@
+.ratio-sidebar{
+    max-width: 10.4%;
+}
+.ratio-main{
+    margin-left: 1.28em !important;
+}
+@media only screen and (max-width: 600px) {
+    .ratio-main{
+        margin-left: 0 !important;
+    }
+}
+body {
+    font-size: .875rem;
+    background-color:black;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+
+  .sidebar {
+    /* position: fixed; */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    /* Behind the navbar */
+    padding: 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+    background: #0D0D0D; 
+}
+
+.sidebar-sticky {
+    position: -webkit-sticky;
+    /*! position: sticky; */
+    /*! top: 48px; */
+    /* Height of navbar */
+    /*! height: calc(100vh - 48px); */
+    /*! padding-top: .5rem; */
+    /*! overflow-x: hidden; */
+    /*! overflow-y: auto; */
+    /* Scrollable contents if viewport is shorter than content. */
+}
+
+.sidebar .nav-link {
+    font-weight: 500;
+    color: #333;
+}
+
+.sidebar .nav-link .feather {
+    margin-right: 4px;
+    color: #999;
+}
+
+.sidebar .nav-link.active {
+    color: #007bff;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+    color: inherit;
+}
+
+.sidebar-heading {
+    font-size: .75rem;
+    text-transform: uppercase;
+}
+
+/*
+* Navbar
+*/
+
+.navbar-brand {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, .25);
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar .form-control {
+    padding: .75rem 1rem;
+    border-width: 0;
+    border-radius: 0;
+}
+
+.form-control-dark {
+    color: #fff;
+    background-color: rgba(255, 255, 255, .1);
+    border-color: rgba(255, 255, 255, .1);
+}
+
+.form-control-dark:focus {
+    border-color: transparent;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+
+/*
+* Utilities
+*/
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+
+@media only screen and (min-width: 600px) {
+    #spacer{
+        width: 100%;
+        height: 95px;
+    }
+}
+
+/* TODO THIS STYLE TO ITS COMPONENET */
+
+ /* MAIN CARD */
+ .genCard{
+    border-bottom-left-radius: 15px !important;
+border-bottom-right-radius: 15px !important;
+overflow: hidden;
+background-color: black;
+}
+.cardImage{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+.songInnerText{
+    display: grid;
+padding: 14px;
+    padding-left: 14px;
+color: red !important;
+background-color: #0D0D0D;
+padding-left: 2.3em;
+}
+.songName{
+    font-size: 18px;
+color: white;
+}
+.songCountDetails{
+    font-size: 15px
+}
+.albumInnerText{
+    display: grid;
+padding: 14px;
+color: red !important;
+background-color: #0D0D0D;
+text-align: center;
+}
+.artistInnerText{
+    display: grid;
+padding: 26px;
+color: red !important;
+background-color: #0D0D0D;
+padding-left: 2.3em;
+text-align: center;
+
+
+}
+
+/* CARD ITEM TO FOR 5 COLUMNS */
+.item {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: calc(20%);
+    padding: 9px;
+        padding-bottom: 9px;
+    padding-bottom: 25px;
+  }
+  @media only screen and (max-width: 600px) {
+
+    .item {
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: calc(50%);
+        padding: 9px;
+            padding-bottom: 9px;
+        padding-bottom: 0px;
+      } 
+}
+.header-text{
+    color: gray;
+padding-left: 5px;
+font-size: 18px;
+}
+.lowerContainer{
+    padding-top: 6em;
+}  
+@media only screen and (max-width: 600px) {
+
+    .lowerContainer{
+        padding-top: 0;
+    } 
+}
+  /* MOOD CARDS */
+  .card-s {
+    height: 250px;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+    background-size: cover !important;
+    color: white;
+    position: relative;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  /* TODO use pattern for cards */
+  .mood-card {
+    border-radius: 23px;
+    overflow: hidden;
+    border: blanchedalmond;
+    height: 160px !important;
+  }
+  .text-large{
+    font-size: large;
+  }

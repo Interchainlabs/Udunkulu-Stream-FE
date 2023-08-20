@@ -1,0 +1,106 @@
+.content {
+  height: 100vh;
+  width: calc(100% - 135.5px);
+  left: 135.5px;
+  position: relative;
+  z-index: 5;
+  background-color: #0d0d00;
+}
+
+/* .search-form{
+    margin-left: 64px;
+} */
+
+#nav-bar {
+  background: #0d0d00;
+}
+
+.input-group {
+  background-color: #0d0d00;
+}
+
+.form-control {
+  background-color: #0d0d00;
+  border-radius: 50px 50px;
+}
+
+#search {
+  height: 50px;
+
+  border-radius: 100px;
+  border: 1px solid #c4c4c4;
+  opacity: 20%;
+}
+
+#input {
+  background-color: #0d0d00 !important;
+  border-radius: 50px 50px !important;
+  color: #c4c4c4 !important;
+}
+
+.search-container {
+  margin: auto;
+  margin-top: auto;
+  width: 100%;
+  display: grid;
+  margin-top: 34px;
+}
+.search-container img {
+  margin: 5px auto;
+}
+#text {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 13px;
+  color: #c4c4c4;
+  opacity: 20%;
+}
+
+#button-addon3 {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+/* artist */
+
+/* TODO pad search icon */
+#searchArtist {
+  height: 50px;
+  margin-top: 34px;
+  border-radius: 100px;
+  border: 1px solid #fffdfd80;
+  background-color: #1b1a1f !important;
+  opacity: 0.3;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 600px) {
+  #button {
+    margin-right: 81px;
+  }
+}
+
+#button-addon4 {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+#button-addon4 i {
+  font-size: 22px;
+  margin-top: 5px;
+  margin-right: -8px;
+}
+.fa.fa-search {
+  color: #828282;
+}
+#artistInput {
+  /* border-radius:50px 50px !important; */
+  background-color: #1b1a1f !important;
+  color: #ffffff;
+}
+#searchForm {
+  width: 54%;
+}
+#artistInput:active:focus{
+  box-shadow: none;
+}

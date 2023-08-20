@@ -1,0 +1,51 @@
+/* nav bar background */
+.navbar{
+    background:black;
+    /* margin-left: 2.9rem; */
+     z-index: 4;
+}
+/* font style */
+.nav-item{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #e5e5e5;
+    padding: 20px 25px 20px 25px;
+    -webkit-transition: font-size .3s ease;
+    -moz-transition: font-size .3s ease;
+    -o-transition: font-size .3s ease;
+    transition: font-size .3s ease;
+}
+
+/* animation for links */
+.nav-item:hover,
+.nav-item:focus,
+.nav-item:active:focus{
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover) #e5e5e5;
+    transform: translateY(-0.35em);
+    text-shadow: -.25px -.25px 0 #e5e5e5, 
+                .25px .25px #e5e5e5;
+    outline:  white 7px; 
+    font-size: 35px;
+}
+.nav-item .active{
+    font-size: 35px;
+    outline:  white 7px; 
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover) #e5e5e5;
+    transform: translateY(-0.35em);
+    text-shadow: -.25px -.25px 0 #e5e5e5, 
+                .25px .25px #e5e5e5;
+    outline:  white 7px; 
+}
+
+#navbarSupportedContent{
+    justify-content: space-between !important;
+}
+#navbarSupportedContent ul{
+    justify-content: space-around;
+}
+#navbar-list{ 
+    margin-left: 5.5rem;
+}
+.ml-50px{
+    margin-left: 2.5em;
+}
