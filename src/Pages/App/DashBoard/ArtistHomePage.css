@@ -1,53 +1,75 @@
-.header-text-dashboard{
-    font-family: Poppins;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 500;
-    text-align: left;
-    margin-top: -5rem;
-    color: white;
-    padding-left: 19px;
+.header-text-dashboard {
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: left;
+  margin-top: -5rem;
+  color: white;
+  padding-left: 19px;
 }
 
-@media screen and (max-width: 500px){
-    .header-text-dashboard{
-        margin-top: 3rem;
-        font-size: 25px;
-    }
-}
-.card-dashboard{
-    height: 215px !important;
-    margin-top: 1.4em;
-    border-radius: 15px;
-    background: #0D0D0D;
-    padding-top: 44px;
-    cursor: pointer;
-}
-
-.card-dashboard p{
-    color: white;
-    font-family: Poppins;
+@media screen and (max-width: 500px) {
+  .header-text-dashboard {
+    margin-top: 3rem;
     font-size: 25px;
-    font-style: normal;
-    font-weight: 500;
-    text-align: left; 
-    margin-left: 45px;
+  }
+}
+.card-dashboard {
+  height: 215px !important;
+  margin-top: 1.4em;
+  border-radius: 15px;
+  background: #0d0d0d;
+  padding-top: 44px;
+  cursor: pointer;
 }
 
-.card-dashboard img{
-    margin-left: 7rem;
+.card-dashboard p {
+  color: white;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: left;
+  margin-left: 45px;
 }
 
-.innerPadding{
-    padding: 25px;
+.card-dashboard img {
+  margin-left: 7rem;
 }
 
-#Profile{
- background-color: #E43D29;
+.innerPadding {
+  padding: 25px;
 }
-#Albums{
-    background-color:#DB7C01;
+
+#Profile {
+  background-color: #e43d29;
 }
-#Followers{
-    background-color: #1F2858;
+#Albums {
+  background-color: #db7c01;
+}
+#Followers {
+  background-color: #1f2858;
+}
+.profile-card {
+  border-radius: 20px;
+  background: #1d1c22;
+}
+.profile-card > img{
+    margin-top: -20px;
+}
+.profile-card > .metrics {
+  border-radius: 20px;
+  background: #06060691;
+}
+
+.profile-card > .metrics > div.item:hover {
+  background: #ffa70085;
+  color: #000;
+}
+.profile-card > div > div > h5.unit {
+  margin-bottom: 0px;
+}
+.profile-card > div > div > span.value {
+  font-size: 12px;
 }

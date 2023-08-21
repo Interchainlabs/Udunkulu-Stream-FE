@@ -6,4 +6,5 @@ import Times from './Times.svg';
 import Human1 from './HumanIcon.svg';
 import Human2 from './HumanIcon2.svg';
 import MusicNotes from './MusicIcon.svg';
-export  {Home,Upload, LogOut, SearchIcon, Times, Human1, Human2, MusicNotes}
+import Avatar from './Avatar.svg';
+export  {Home,Upload, LogOut, SearchIcon, Times, Human1, Human2, MusicNotes,Avatar}

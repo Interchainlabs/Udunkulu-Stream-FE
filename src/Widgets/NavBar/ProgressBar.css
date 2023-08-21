@@ -6,11 +6,3 @@
     border-radius: 31px;
 
 }
-
-.rounded-circle{
-    height: 25px !important;
-    width: 25px !important;
-    border-radius: 0px;
-    background-color:#FFA700;
-    margin-top: 25px;
-}

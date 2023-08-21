@@ -170,4 +170,9 @@
     color: black;
 }
 
+.btn-upload{
+border-radius: 10px;
+background: #FFA700 !important;
+padding: 10px;
+}
 
