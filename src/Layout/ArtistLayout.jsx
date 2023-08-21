@@ -21,17 +21,15 @@ export function ArtistLayout(props) {
         >
           {/* <!-- DYNAMIC NAVBAR --> */}
 
-          <ArtistNavBar/>
+          {/* <ArtistNavBar/> */}
 
           {/* SPACER HERE */}
           <div id="spacer"></div>
 
           {/* <!-- DYNAMIC CONTENT --> */}
-          <div className="lowerContainer">
+          <div className="">
             {childElement}
           </div>
-          {/* sdsd */}
-
         </main>
       </div>
     </div>

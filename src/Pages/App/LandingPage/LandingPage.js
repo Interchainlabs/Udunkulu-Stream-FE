@@ -15,15 +15,15 @@ const LandingPage =()=>{
 
                         <NavLink to="/trending" className="nav-link">
                             <div id="landingPageButton">
-                                <Button variant="Continue" size={"sm"} >Continue</Button>                     
+                                <Button variant="Continue" size={"sm"} >Connect Wallet to Continue</Button>
                             </div>
                         </NavLink>
-                        
-                    </div>  
+
+                    </div>
                 </div>
                 {/* <div className="full-height"> */}
                     <img  className="" src={UdunkuluLady} alt="" id="landingPageImage"/>
-                
+
             </div>
         </div>
     );

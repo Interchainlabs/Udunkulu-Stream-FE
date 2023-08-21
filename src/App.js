@@ -20,7 +20,6 @@ import {
   TopArtist
 } from "./Pages/App/Recommendation";
 import Search_page from "./Pages/App/Search/Search_page";
-import { ArtistNavBar, NavBar, Sidebar, ProgressBar } from "./Widgets";
 import { Provider } from "react-redux";
 import store from "./store/app/store";
 import FinePlayer from "./Pages/App/FinePlayer/FinePlayer";
@@ -35,8 +34,6 @@ const App = () => {
         <Switch>
           <Route exact path="/">
             <LandingPage />
-
-            {/* <ProgressBar/> */}
           </Route>
           <RouteWrapper
             path="/trending"
@@ -54,7 +51,7 @@ const App = () => {
             layout={App_layout}
           />
           <RouteWrapper
-            path="/player"
+            path="/trending"
             component={Trending}
             layout={App_layout}
           />
@@ -68,46 +65,14 @@ const App = () => {
             component={Search_page}
             layout={App_layout}
           />
-          <RouteWrapper
-            path="/results"
-            component={SearchResult}
-            layout={App_layout}
-          />
-          {/* 
-          <RouteWrapper path="/search-results-artist" component={Search_page} layout={App_layout} />
-          <RouteWrapper path="/search-results-albums" component={Search_page} layout={App_layout} />
-          <RouteWrapper path="/search-results-songs" component={Search_page} layout={App_layout} /> */}
-          {/* // artist route */}
-          <RouteWrapper
+           <RouteWrapper
             path="/dashboard"
             component={ArtistHomePage}
             layout={ArtistLayout}
           />
-          <RouteWrapper
-            path="/finish"
-            component={Finish}
-            layout={ArtistLayout}
-          />
-          <RouteWrapper
-            path="/preview-song-upload"
-            component={Preview}
-            layout={ArtistLayout}
-          />
-          <RouteWrapper
-            path="/upload-your-music"
-            component={Upload}
-            layout={ArtistLayout}
-          />
-          <RouteWrapper
-            path="/upload"
-            component={UploadingPage}
-            layout={ArtistLayout}
-          />
-          <RouteWrapper
-            path="/now-playing"
-            component={FinePlayer}
-            layout={App_layout}
-          />
+        {/* Profile */}
+          {/* MINT NFT */}
+        {/* PURCHASE OWNERSHOPT */}
         </Switch>
       </Router>
     </Provider>

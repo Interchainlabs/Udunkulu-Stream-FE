@@ -6,16 +6,16 @@ import {Button} from '../../../Components';
 
 const UploadingPage=(props)=>{
 
-    const [progress, setProgress] = useState(0);  
+    const [progress, setProgress] = useState(0);
 
     return(
         <>
            {/* delected add more files section : its not needed for version 1 */}
 
             <section id="uploadStatus" className="spacer">
-                <div className="TrackInfo">{props.formInfo.song.name}</div>
+                <div className="TrackInfo">{"Name"}</div>
                 <div className="TrackStatus d-flex" >
-                  <div id="size"><text>Uploading...</text> + {(props.formInfo.song.size/1024/1024).toFixed(1)}Mb</div>
+                  <div id="size"><text>Uploading...</text> + {"123"}Mb</div>
                   {/* <i className="fas fa-trash"></i> */}
                 </div>
 
